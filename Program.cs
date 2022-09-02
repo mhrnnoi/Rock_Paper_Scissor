@@ -8,10 +8,7 @@ namespace Rock_Paper_Scissor
         {
             Console.WriteLine("Hello Welcome To This Mini Game Hope You Enjoy It.");
 
-            string input;
-            string comTurn;
-            string result;
-            string onOff;
+            string input, comTurn, result, onOff;
 
             int playerWin = 0;
             int comWin = 0;

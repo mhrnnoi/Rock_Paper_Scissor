@@ -38,8 +38,6 @@ namespace Rock_Paper_Scissor
                 Console.WriteLine($"You: {input}");
                 Console.WriteLine(result);
 
-                Console.ReadLine();
-                Console.Clear();
                 Console.WriteLine("Would you like to play again? Y/N ");
 
                 onOff = Console.ReadLine().ToLower();
@@ -49,6 +47,8 @@ namespace Rock_Paper_Scissor
                     Console.WriteLine("plz enter just  Y or N ");
                     onOff = Console.ReadLine().ToLower();
                 }
+                Console.Clear();
+
 
             } while (GameOnOff(onOff));
 
